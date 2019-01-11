@@ -1,0 +1,7 @@
+#+HUGO_BASE_DIR:..
+* About
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: posts
+:EXPORT_FILE_NAME: about
+:END:
+This is the home of my blog!

@@ -7,7 +7,7 @@ title = "Accomplish&shy;ments"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 15
+weight = 9
 
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -20,27 +20,57 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  title = "Neural Networks and Deep Learning"
+  title = "Deep Learning Specialization"
   organization = "Coursera"
-  certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
-  date_end = ""
-  description = ""
+  certificate_url = "https://www.coursera.org/account/accomplishments/specialization/L6RPZ39RJKZ3"
+  date_start = "2018-09-01"
 
 [[item]]
-  title = "Blockchain Fundamentals"
-  organization = "edX"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
-  date_end = ""
-  description = ""
+  title = "Algorithmic Toolbox"
+  organization = "Coursera/UC San Diego"
+  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/6WKAQQCSQ2WB"
+  date_start = "2018-01-30"
+
+[[item]]
+  title = "Sequence Models"
+  organization = "Coursera/deeplearning.ai"
+  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/MTCGDDLZAMPM"
+  date_start = "2018-09-30"
+
+[[item]]
+  title = "Machine Learning"
+  organization = "Coursera/Stanford University"
+  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/APURNSEEJQYA"
+  date_start = "2017-08-30"
   
 [[item]]
-  title = "Intro to Python"
-  organization = "DataCamp"
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
-  description = ""
+  title = "Neural Networks and Deep Learning"
+  organization = "Coursera/deeplearning.ai"
+  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/LTYS5UQG8NFB"
+  date_start = "2017-09-30"
+  
+[[item]]
+  title = "Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization"
+  organization = "Coursera/deeplearning.ai"
+  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/6MRYDX3XL7SV"
+  date_start = "2017-11-30"
+  
+[[item]]
+  title = "Convolutional Neural Networks"
+  organization = "Coursera/deeplearning.ai"
+  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/N26M5RG7EXEJ"
+  date_start = "2017-12-30"
+  
+[[item]]
+  title = "Structuring Machine Learning Projects"
+  organization = "Coursera/deeplearning.ai"
+  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/A6FTGG7KM9HJ"
+  date_start = "2017-10-30"
+  
+  
+
+
+
+
 
 +++

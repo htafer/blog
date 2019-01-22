@@ -26,7 +26,50 @@ weight = 7
   icon_pack = "fab"
   name = "R"
   description = "100%"
-  
+
+
+[[feature]]
+  icon = "icon-perl"
+  icon_pack = "mfizz"
+  name = "perl"
+  description = "100%"
+
+[[feature]]
+  icon = "python"
+  icon_pack = "fab"
+  name = "Python"
+  description = "80%"
+
+[[feature]]
+  icon = "icon-c"
+  icon_pack = "mfizz"
+  name = "C"
+  description = "70%"
+
+[[feature]]
+  icon = "icon-cplusplus"
+  icon_pack = "mfizz"
+  name = "C"
+  description = "70%"
+
+[[feature]]
+  icon = "icon-shell"
+  icon_pack = "mfizz"
+  name = "bash"
+  description = "100%"
+
+[[feature]]
+  icon = "icon-mysql-alt"
+  icon_pack = "mfizz"
+  name = "mySQL"
+  description = "50%"
+
+[[feature]]
+  icon = "flask"
+  icon_pack = "fas"
+  name = "Nanopore Sequencing"
+  description = "60%"
+
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
@@ -34,11 +77,10 @@ weight = 7
   description = "80%"
 
 
-  
 [[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  icon = "icon-shell"
+  icon_pack = "mfizz"
+  name = "Matlab"
+  description = "80%"
 
 +++

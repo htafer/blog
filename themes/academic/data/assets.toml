@@ -98,3 +98,7 @@
   version = "9.12.0"
   sri = ""  # No SRI as highlight style is determined at run time.
   url = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/%s/styles/%s.min.css"
+[css.mfizz]
+  version = "2.4.1"
+  sri = "sha512-Cdvnk1SFWqcb3An6gMyqDRH40Js8qmsWcSK10I2gSifCe2LilaPMsHd6DldEvQ3uIlCb1qdRUrNeAFFleOu4xQ=="
+  url = "https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/%s/font-mfizz.min.css"

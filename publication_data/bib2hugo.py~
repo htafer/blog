@@ -1,0 +1,6 @@
+import bibtexparse
+
+with open('works.bib') as bibtex_file:
+    bib_database = bibtexparser.load(bibtex_file)
+
+print(bib_database.entries)

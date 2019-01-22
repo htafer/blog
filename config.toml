@@ -277,10 +277,10 @@ enableGitInfo = false
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-  [[params.social]]
-     icon = "cv"
-     icon_pack = "ai"
-     link = "files/awesomeCV.pdf"
+  # [[params.social]]
+  #   icon = "cv"
+  #   icon_pack = "ai"
+  #   link = "files/awesomeCV.pdf"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -296,36 +296,48 @@ enableGitInfo = false
   weight = 1
 
 [[menu.main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 3
+
+
+# [[menu.main]]
+#   name = "Selected Publications"
+#   url = "#publications_selected"
+#   weight = 4
+
+[[menu.main]]
+  name = "Recent Publications"
+  url = "#publications"
+  weight = 5
+
+[[menu.main]]
   name = "Publications"
-  url = "#publications_selected"
-  weight = 2
+  url = "/publication"
+  weight = 5
 
 [[menu.main]]
   name = "Posts"
   url = "#posts"
-  weight = 3
+  weight = 2
 
-[[menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 4
 
 #[[menu.main]]
 #  name = "Tutorials"
 #  url = "/tutorial/"
 #  weight = 5
 
-[[menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 6
+#[[menu.main]]
+#  name = "Contact"
+#  url = "#contact"
+#  weight = 6
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-[[menu.main]]
-  name = "CV"
-  url = "files/awesomeCV.pdf"
-  weight = 7
+# [[menu.main]]
+#  name = "CV"
+#  url = "files/awesomeCV.pdf"
+#  weight = 7
 
 # Search.
 [params.search]

@@ -1,0 +1,174 @@
++++
+title = "KEGG analysis of regulated genes"
+author = ["htafer"]
+tags = ["proteomics", "KEGG", "genes", "jatropha", "enrichment"]
+draft = false
+weight = 1002
++++
+
+I have been terminating a project where proteomic profiles of
+Jatrophia curcas seeds have been done at a various developmental
+stages. On of the question was to look at **when which enzyme shows up
+in KEGG pathway.**
+
+
+## DATA {#data}
+
+In terms of data we have for each stage a list of proteins
+with at least one protein-specific peptide. My main work was to look
+at this list of gene and find enriched functional annotation
+terms. The annotation was done with Interproscan, eggNog, Cazy, Merops
+and TCDB. Gene Ontology and KEGG pathways were extracted from [eggNog](http://eggnogdb.embl.de/)
+and [Interproscan](https://www.ebi.ac.uk/interpro/search/sequence-search). The enrichment was made in R with the package
+GOstats
+
+<a id="table--Table summary enrichment"></a>
+<div class="table-caption">
+  <span class="table-number"><a href="#table--Table summary enrichment">Table 1</a></span>:
+  Overview of the number of proteins with at least 1 peptide in each developmental stage.
+</div>
+
+|                                  | GW   | GH   | GB  | YB  | BB  | DRY |
+|----------------------------------|------|------|-----|-----|-----|-----|
+| Proteins with at least 1 peptide | 1557 | 1623 | 783 | 762 | 855 | 614 |
+
+<a id="table--Table summary enrichment"></a>
+<div class="table-caption">
+  <span class="table-number"><a href="#table--Table summary enrichment">Table 2</a></span>:
+  Number of enriched annotation for each category and developmental stage.
+</div>
+
+| Enriched term   | GW  | GH  | GB  | YB  | BB  | DRY |
+|-----------------|-----|-----|-----|-----|-----|-----|
+| CDD             | 18  | 24  | 13  | 12  | 15  | 17  |
+| Cazy            | 2   | 4   | 1   | 6   | 2   | 0   |
+| GO              | 532 | 493 | 336 | 373 | 332 | 314 |
+| Gene3D          | 84  | 77  | 48  | 55  | 62  | 42  |
+| Hamap           | 0   | 0   | 0   | 0   | 0   | 1   |
+| IPR             | 320 | 326 | 222 | 229 | 241 | 183 |
+| KEGG            | 16  | 13  | 10  | 14  | 13  | 6   |
+| Merops          | 2   | 2   | 2   | 3   | 1   | 1   |
+| MetaCyc         | 11  | 15  | 9   | 18  | 0   | 0   |
+| MobiDBLite      | 0   | 0   | 0   | 0   | 0   | 0   |
+| PANTHER         | 67  | 70  | 76  | 85  | 99  | 77  |
+| PIRSF           | 6   | 0   | 1   | 1   | 1   | 0   |
+| PRINTS          | 20  | 15  | 8   | 13  | 7   | 8   |
+| Pfam            | 116 | 118 | 71  | 81  | 91  | 57  |
+| ProDom          | 0   | 0   | 0   | 0   | 0   | 0   |
+| ProSitePatterns | 30  | 30  | 7   | 28  | 11  | 20  |
+| ProSiteProfiles | 32  | 36  | 19  | 18  | 17  | 12  |
+| Reactome        | 38  | 28  | 18  | 12  | 22  | 21  |
+| SFLD            | 2   | 0   | 1   | 1   | 1   | 1   |
+| SMART           | 42  | 44  | 25  | 21  | 28  | 24  |
+| SUPERFAMILY     | 86  | 81  | 55  | 52  | 63  | 40  |
+| TIGRFAM         | 3   | 0   | 2   | 2   | 2   | 1   |
+| eggNog          | 44  | 42  | 42  | 40  | 55  | 42  |
+| tcdb            | 13  | 13  | 12  | 12  | 13  | 10  |
+
+Now we would like to paint for each KEGG pathways the enzyme showing
+up. To this aim we will use the _R_-package **[pathview](http://bioconductor.org/packages/release/bioc/html/pathview.html)**. Since the
+annotation of _J. curcas_ might not be complete, the peptide mapping
+process was achieved by also considering protein from other plants,
+i.e. from more than one organism.
+
+The problem is that pathview either works with a species specific set
+of genes ID or with the corresponding KEGGID. A solution is to convert
+the gene ID to KEGG ID. To this aim we generated a gene ID to EC
+dictionary from the **IPR** annotation. The EC to KEGG was obtained the
+[KEGG Rest Api](http://rest.kegg.jp):
+
+```bash
+  curl -f http://rest.kegg.jp/link/ec/ko | sed -r 's/ko://' | sed -r 's/ec:/EC:/' > KO2EC.list
+#KO2EC file looks then like
+ #KEGG    EC
+ #K00001  EC:1.1.1.1
+ #K00002  EC:1.1.1.2
+ #K00003  EC:1.1.1.3
+ #K00004  EC:1.1.1.4
+ #K00004  EC:1.1.1.303
+ #K00005  EC:1.1.1.6
+ #K00006  EC:1.1.1.8
+ #K00007  EC:1.1.1.11
+ #K00008  EC:1.1.1.14
+```
+
+<div class="src-block-caption">
+  <span class="src-block-number">Code Snippet 1</span>:
+  Downloading KO / EC file
+</div>
+
+Finally the enrichment files have the following formatting
+
+```text
+"KEGGID"        "Pvalue"        "OddsRatio"     "ExpCount"      "Count" "Size"  "Term"  "fdr"   "desc"  "genes"
+ "ko00630"       1.48869690281379e-05    8.83636363636364        1.69491525423729        9       25      NA      0.000699687544322481    "Glyoxylate_and_dicarboxylate_metabolism"       "A0A067JFR1, A0A067JMA6, A0A067K0M8, A0A067KN15, A5X4N8, C6F1E5, K9MCB1, Q84XZ9, W9SPU5"
+ "ko00020"       3.35093741041604e-05    11.8849902534113        1.08474576271186        7       16      NA      0.00078747029144777     "Citrate_cycle_(TCA_cycle)"     "A0A067JFR1, A0A067JMA6, A0A067JUK1, A0A067K488, A0A067LBG3, A0A0B2SEY3, I1MGE6"
+ "ko00720"       0.000359810652978868    7.08187134502924        1.49152542372881        7       22      NA      0.00485214527417342     "Carbon_fixation_pathways_in_prokaryotes"       "A0A067JFR1, A0A067JMA6, A0A067JUK1, A0A067LBG3, A0A0B2SEY3, I1MGE6, J9Y1K3"
+ "ko00380"       0.000412948533972206    12.3446327683616        0.745762711864407       5       11      NA      0.00485214527417342     "Tryptophan_metabolism" "A0A067K488, C6F1E5, K9MCB1, Q84XZ9, W9SPU5"
+```
+
+
+## PROCESSING {#processing}
+
+Once we have the set of enriched KEGG pathway with the corresponding
+gene name, the conversion files from GeneID->EC->KEGGID, we
+can start genering colorised KEGG pathways.
+
+```R
+#In work2/fatemeh/proteinFunctionalAnnotation/enrichment2
+#Library used to colorise KEGG pathways
+library(pathwview)
+
+#Read in the GENE->EC dictionary
+dictUniEC<-read.table("./helperfile/Gene_EC.dictionary",header=T)
+#Read the EC2KO dictionary
+dictECKEGGID<-read.table("/media/htafer/work2/share/database/KO2EC.list",header=T)
+#Replace EC: with ""
+dictECKEGGID$EC<-gsub("EC:","",dictECKEGGID$EC)
+#Get the list of files containing enriched KEGG
+files<-list.files(path=".",pattern="list.KEGG.csv$")
+#for each file
+for (f in files){
+     # get the data
+     data<-read.table(f,quote='"',header=T)
+     # select enrichment q-balue < 0.05
+     data<-data[data$fdr<0.05,]
+     # replace ko with ""
+     data$KEGGID<-gsub("ko","",data$KEGGID)
+     # replace ec with EC
+     data$ECs<-gsub("ec:","EC:",data$genes)
+     # for each gene inside the enriched annotation
+     for(i in 1:dim(data)[1]){
+	#Get contig for give kegg
+	contigs<-strsplit(as.character(data$ECs),",")[[i]]
+	#Rmove white space
+	contigs<-gsub(" ","",contigs)
+	#id conversion
+	temp<-unique(dictECKEGGID$KEGG[dictECKEGGID$EC %in% unique(dictUniEC$ec[dictUniEC$uni %in% contigs])])
+
+					 #                                        #Read dictionary
+					 #
+					 #    matchLOC<-dictLOCEC[dictLOCEC$EC %in% contigs,1]
+					 #                                        #Remove the loc part since it is not used in KEGG
+					 #    contigs<-gsub("LOC","",matchLOC)
+					 #                                        #Start analysis
+					 #    pathview(contig,pathway.id=sprintf("%05s",data$KEGGID[i]),species="jcu",out.suffix=paste(data$KEGGID[i],"_",gsub(" ","",data$ECs[i]),sep=""))
+	#Plot with pathview
+	 try(pathview(as.character(temp),pathway.id=data$KEGGID[i],species="ko",gene.idtype="kegg",plot.col.key= FALSE,out.suffix=paste(data$KEGGID[i],f,sep="_")))
+     }
+ }
+```
+
+<div class="src-block-caption">
+  <span class="src-block-number">Code Snippet 2</span>:
+  <i>R</i>-code used to colorize the overrpresented KEGG pathways with the correspponding enzymes
+</div>
+
+
+## RESULTS {#results}
+
+The resulting pathways are now showing in red the genes with at least one peptide.
+
+<a id="orgc955d39"></a>
+
+{{< figure src="/img/ko00020.00020_jatCur.yb.csv.list.KEGG.csv.png" caption="Figure 1: Colorized KEGG pathway rendered by pathview" >}}

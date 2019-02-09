@@ -1,7 +1,8 @@
 +++
 title = "KEGG analysis of regulated genes"
 author = ["htafer"]
-tags = ["proteomics", "KEGG", "genes", "jatropha", "enrichment"]
+date = 2018-02-08
+tags = ["proteomics", "KEGG", "genes", "jatropha", "enrichment", "pathview", "plot", "visualization", "REST", "api"]
 draft = false
 weight = 1002
 +++
@@ -66,8 +67,8 @@ GOstats
 | tcdb            | 13  | 13  | 12  | 12  | 13  | 10  |
 
 Now we would like to paint for each KEGG pathways the enzyme showing
-up. To this aim we will use the _R_-package **[pathview](http://bioconductor.org/packages/release/bioc/html/pathview.html)**. Since the
-annotation of _J. curcas_ might not be complete, the peptide mapping
+up. To this aim we will use the _R_-package **[pathview](http://bioconductor.org/packages/release/bioc/html/pathview.html)**, which _"...maps and renders a wide variety of biological data on relevant pathway graphs. All users need is to supply their data and specify the target pathway. Pathview automatically downloads the pathway graph data, parses the data file, maps user data to the pathway, and render pathway graph with the mapped data. In addition, Pathview also seamlessly integrates with pathway and gene set (enrichment) analysis tools for large-scale and fully automated analysis...."_.
+Since the annotation of _J. curcas_ might not be complete, the peptide mapping
 process was achieved by also considering protein from other plants,
 i.e. from more than one organism.
 
@@ -169,6 +170,14 @@ for (f in files){
 
 The resulting pathways are now showing in red the genes with at least one peptide.
 
-<a id="orgc955d39"></a>
+<a id="org5707cb9"></a>
 
 {{< figure src="/img/ko00020.00020_jatCur.yb.csv.list.KEGG.csv.png" caption="Figure 1: Colorized KEGG pathway rendered by pathview" >}}
+
+
+## Conclusion {#conclusion}
+
+Pathview is a great tool to annotate metabolic pathway from KEGG. The
+main difficulty is to get the right gene ID for pathview to produce
+the desired plot. Once this is ensured publication ready plots are
+easily produced by this great package.

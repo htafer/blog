@@ -2,22 +2,41 @@
 #+HUGO_WEIGHT: auto
 
 
-* About :hugo:bioinformatics:embedded:code:R:python:perl:
+* Blogging from emacs with HUGO and the academic themes :hugo:academic:org:emacs:
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: post
-:EXPORT_FILE_NAME: about
-:EXPORT_DATE: 2019-02-07
+:EXPORT_FILE_NAME: hugo
+:HUGO_CODE_FENCE: nil
+:EXPORT_DATE: 2018-02-07
 :END:
-This is the home of my blog!
-BLABLALBa
 
 
 
-* KEGG analysis of regulated genes :proteomics:KEGG:genes:jatropha:enrichment:
+I am starting to blog from emacs and the org-mode and publish the posts on my github-hosted page.
+Below I list a of link that helped me to set everything up:
+
++ [[https://gohugo.io/getting-started/installing/#quick-install][hugo installation]]
+
++ [[https://sourcethemes.com/academic/docs/install/#install-with-zip][Academic theme install]]
+
++ [[https://ox-hugo.scripter.co/][ox-hugo mode for emacs]]
+
++ [[https://gohugo.io/hosting-and-deployment/hosting-on-github/][Update of the blog on github]]
+
+
+Since I document my work in org-formatted file, this setup helps me to
+achieve both documentation and blog publication in one single
+step. There a lot of great resources on this topic and the three above
+link should be fine to dive into it.
+
+
+
+* KEGG analysis of regulated genes :proteomics:KEGG:genes:jatropha:enrichment:pathview:plot:visualization:REST:api:
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: post
 :EXPORT_FILE_NAME: kegg2
 :HUGO_CODE_FENCE: nil
+:EXPORT_DATE: 2018-02-08
 :END:
 
 I have been terminating a project where proteomic profiles of
@@ -202,8 +221,8 @@ option_list <- list(
 
 
 Now we would like to paint for each KEGG pathways the enzyme showing
-up. To this aim we will use the /R/-package *[[http://bioconductor.org/packages/release/bioc/html/pathview.html][pathview]]*. Since the
-annotation of /J. curcas/ might not be complete, the peptide mapping
+up. To this aim we will use the /R/-package *[[http://bioconductor.org/packages/release/bioc/html/pathview.html][pathview]]*, which /"...maps and renders a wide variety of biological data on relevant pathway graphs. All users need is to supply their data and specify the target pathway. Pathview automatically downloads the pathway graph data, parses the data file, maps user data to the pathway, and render pathway graph with the mapped data. In addition, Pathview also seamlessly integrates with pathway and gene set (enrichment) analysis tools for large-scale and fully automated analysis...."/. 
+Since the annotation of /J. curcas/ might not be complete, the peptide mapping
 process was achieved by also considering protein from other plants,
 i.e. from more than one organism.
 
@@ -300,3 +319,10 @@ The resulting pathways are now showing in red the genes with at least one peptid
 #+CAPTION: Colorized KEGG pathway rendered by pathview
 #+NAME:   fig:pathview
 [[/img/ko00020.00020_jatCur.yb.csv.list.KEGG.csv.png]]
+
+** Conclusion
+
+Pathview is a great tool to annotate metabolic pathway from KEGG. The
+main difficulty is to get the right gene ID for pathview to produce
+the desired plot. Once this is ensured publication ready plots are
+easily produced by this great package.

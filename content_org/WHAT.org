@@ -31,7 +31,7 @@ link should be fine to dive into it.
 
 
 
-* KEGG analysis of regulated genes :proteomics:KEGG:genes:jatropha:enrichment:pathview:plot:visualization:REST:api:
+* KEGG analysis of regulated genes :proteomics:KEGG:genes:plant:enrichment:pathview:plot:visualization:REST:api:
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: post
 :EXPORT_FILE_NAME: kegg2
@@ -40,7 +40,7 @@ link should be fine to dive into it.
 :END:
 
 I have been terminating a project where proteomic profiles of
-Jatrophia curcas seeds have been done at a various developmental
+of a plant seed have been done at a various developmental
 stages. On of the question was to look at *when which enzyme shows up
 in KEGG pathway.*
 
@@ -222,7 +222,7 @@ option_list <- list(
 
 Now we would like to paint for each KEGG pathways the enzyme showing
 up. To this aim we will use the /R/-package *[[http://bioconductor.org/packages/release/bioc/html/pathview.html][pathview]]*, which /"...maps and renders a wide variety of biological data on relevant pathway graphs. All users need is to supply their data and specify the target pathway. Pathview automatically downloads the pathway graph data, parses the data file, maps user data to the pathway, and render pathway graph with the mapped data. In addition, Pathview also seamlessly integrates with pathway and gene set (enrichment) analysis tools for large-scale and fully automated analysis...."/. 
-Since the annotation of /J. curcas/ might not be complete, the peptide mapping
+Since the annotation of the plant of interest might not be complete, the peptide mapping
 process was achieved by also considering protein from other plants,
 i.e. from more than one organism.
 
@@ -326,3 +326,66 @@ Pathview is a great tool to annotate metabolic pathway from KEGG. The
 main difficulty is to get the right gene ID for pathview to produce
 the desired plot. Once this is ensured publication ready plots are
 easily produced by this great package.
+
+
+* Nanopore Basecalling :genomics:metagenomics:ONT:nanopore:sequencing:bioinformatics:tutorial:albacore:guppy:
+  SCHEDULED: <2019-02-20 Wed>
+
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: post
+:EXPORT_FILE_NAME: nanopore_basecalling
+:HUGO_CODE_FENCE: nil
+:EXPORT_HUGO_PUBLISHDATE: 2018-02-20
+:END:
+
+** Context
+
+We are currently sequencing old (500-1500 years old) statues,
+manuscripts and parchments in order to assess which microorganisms
+grow/grew on them. To this aim illumina, torrent and now nanopore
+sequencing are being used. Nanopore sequencing is being done in our
+lab. The main problem once we got the fast5 data is to basecall them
+and do further processing. The next few paragraph present an overview
+of the step we are doing:
+
+** Basecalling on CPU
+
+Until recently Albacore was the official basecaller from ONT. This is
+now archived and guppy is the new preferred software for everything
+basecalling. Guppy can run both on the CPU and GPU (Nvidia only).
+Installation under ubuntu 16.04 is relatively easy and well explained
+[[https://community.nanoporetech.com/protocols/Guppy-protocol-preRev/v/gpb_2003_v1_revg_14dec2018][here]]. Since we do not have access to a GPU we will install the
+CPU-based guppy.
+
+#+BEGIN_SRC bash
+  sudo apt-get update 
+  sudo apt-get install wget lsb-release 
+  export PLATFORM=$(lsb_release -cs) 
+  wget -O- https://mirror.oxfordnanoportal.com/apt/ont-repo.pub | sudo apt-key add - 
+  echo "deb http://mirror.oxfordnanoportal.com/apt ${PLATFORM}-stable non-free" | sudo tee /etc/apt/sources.list.d/nanoporetech.sources.list 
+  sudo apt-get update
+  sudo apt install ont-guppy-cpu
+#+END_SRC
+
+
+Guppy has preconfigured configuration scripts that can be specified by setting the 
+--flow-cell and --kit on the command line:
+
+#+BEGIN_SRC bash
+guppy_basecaller -r \ #recursive search for fast5 files
+                 --input_path /media/htafer/backup8TB/nanopore/20181003_1027_/fast5/ \ # input directory 
+                 --save_path . \ #output directory 
+                 --flowcell FLO-MIN106 \ # Flow cell type 
+                 --kit SQK-LSK108 \ #kit used during sequencing
+                 --cpu_threads_per_caller 8 #thread number
+#+END_SRC
+
+A 6 years old AMD AMD FX-8370E is basecalling approx. 5-10 reads/s,
+approximately the speed of a laptop with a 2018 i7-8550.
+
+
+** Basecalling on MX150 Nvidia
+
+
+
+** Basecalling on a G3 instance

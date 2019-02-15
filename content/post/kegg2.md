@@ -2,13 +2,13 @@
 title = "KEGG analysis of regulated genes"
 author = ["htafer"]
 date = 2018-02-08
-tags = ["proteomics", "KEGG", "genes", "jatropha", "enrichment", "pathview", "plot", "visualization", "REST", "api"]
+tags = ["proteomics", "KEGG", "genes", "plant", "enrichment", "pathview", "plot", "visualization", "REST", "api"]
 draft = false
 weight = 1002
 +++
 
 I have been terminating a project where proteomic profiles of
-Jatrophia curcas seeds have been done at a various developmental
+of a plant seed have been done at a various developmental
 stages. On of the question was to look at **when which enzyme shows up
 in KEGG pathway.**
 
@@ -68,7 +68,7 @@ GOstats
 
 Now we would like to paint for each KEGG pathways the enzyme showing
 up. To this aim we will use the _R_-package **[pathview](http://bioconductor.org/packages/release/bioc/html/pathview.html)**, which _"...maps and renders a wide variety of biological data on relevant pathway graphs. All users need is to supply their data and specify the target pathway. Pathview automatically downloads the pathway graph data, parses the data file, maps user data to the pathway, and render pathway graph with the mapped data. In addition, Pathview also seamlessly integrates with pathway and gene set (enrichment) analysis tools for large-scale and fully automated analysis...."_.
-Since the annotation of _J. curcas_ might not be complete, the peptide mapping
+Since the annotation of the plant of interest might not be complete, the peptide mapping
 process was achieved by also considering protein from other plants,
 i.e. from more than one organism.
 
@@ -170,7 +170,7 @@ for (f in files){
 
 The resulting pathways are now showing in red the genes with at least one peptide.
 
-<a id="org5707cb9"></a>
+<a id="orga2b7ce8"></a>
 
 {{< figure src="/img/ko00020.00020_jatCur.yb.csv.list.KEGG.csv.png" caption="Figure 1: Colorized KEGG pathway rendered by pathview" >}}
 

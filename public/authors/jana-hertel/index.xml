@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jana Hertel on Code Blocks</title>
+    <link>https://htafer.github.io/authors/jana-hertel/</link>
+    <description>Recent content in Jana Hertel on Code Blocks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018-2019</copyright>
+    <lastBuildDate>Wed, 31 Dec 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://htafer.github.io/authors/jana-hertel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Matching of soulmates: Coevolution of snoRNAs and their targets</title>
+      <link>https://htafer.github.io/publication/kehr2014/</link>
+      <pubDate>Wed, 31 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://htafer.github.io/publication/kehr2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RNA in phylogenetic reconstruction</title>
+      <link>https://htafer.github.io/publication/tafer2014rnaphylogeny/</link>
+      <pubDate>Wed, 31 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://htafer.github.io/publication/tafer2014rnaphylogeny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SnoStrip: A snorna annotation pipeline</title>
+      <link>https://htafer.github.io/publication/bartschat2014/</link>
+      <pubDate>Wed, 31 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://htafer.github.io/publication/bartschat2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genomic and morphological evidence converge to resolve the enigma of strepsiptera</title>
+      <link>https://htafer.github.io/publication/niehuis2012/</link>
+      <pubDate>Mon, 31 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://htafer.github.io/publication/niehuis2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RNAsnoop: Efficient target prediction for H/ACA snoRNAs</title>
+      <link>https://htafer.github.io/publication/tafer2009/</link>
+      <pubDate>Thu, 31 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://htafer.github.io/publication/tafer2009/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

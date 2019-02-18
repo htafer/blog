@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stephan H Bernhart on Code Blocks</title>
+    <link>https://htafer.github.io/authors/stephan-h-bernhart/</link>
+    <description>Recent content in Stephan H Bernhart on Code Blocks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018-2019</copyright>
+    <lastBuildDate>Sat, 31 Dec 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://htafer.github.io/authors/stephan-h-bernhart/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ViennaRNA Package 2.0</title>
+      <link>https://htafer.github.io/publication/lorenz2011/</link>
+      <pubDate>Sat, 31 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://htafer.github.io/publication/lorenz2011/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bioinformatics Research and Development</title>
+      <link>https://htafer.github.io/publication/ulrike2008/</link>
+      <pubDate>Wed, 31 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://htafer.github.io/publication/ulrike2008/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Translational Control by RNA-RNA Interaction: Improved Computation of RNA-RNA Binding Thermodynamics</title>
+      <link>https://htafer.github.io/publication/mueckstein08/</link>
+      <pubDate>Wed, 31 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://htafer.github.io/publication/mueckstein08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Translational Control by RNA-RNA Interaction: Improved Computation of RNA-RNA Binding Thermodynamics</title>
+      <link>https://htafer.github.io/publication/mueckstein08/</link>
+      <pubDate>Wed, 31 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://htafer.github.io/publication/mueckstein08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Partition Function and Base Pairing Probabilities of RNA Heterodimers</title>
+      <link>https://htafer.github.io/publication/bernhart06e/</link>
+      <pubDate>Sun, 31 Dec 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://htafer.github.io/publication/bernhart06e/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

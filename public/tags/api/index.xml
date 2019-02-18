@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>api on Code Blocks</title>
+    <link>https://htafer.github.io/tags/api/</link>
+    <description>Recent content in api on Code Blocks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018-2019</copyright>
+    <lastBuildDate>Fri, 08 Feb 2019 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://htafer.github.io/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>KEGG analysis of regulated genes</title>
+      <link>https://htafer.github.io/post/kegg2/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/post/kegg2/</guid>
+      <description>I have been terminating a project where proteomic profiles of of a plant seed have been done at a various developmental stages. On of the question was to look at when which enzyme shows up in KEGG pathway.
+DATA In terms of data we have for each stage a list of proteins with at least one protein-specific peptide. My main work was to look at this list of gene and find enriched functional annotation terms.</description>
+    </item>
+    
+  </channel>
+</rss>

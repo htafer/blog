@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tutorial on Code Blocks</title>
+    <link>https://htafer.github.io/tags/tutorial/</link>
+    <description>Recent content in tutorial on Code Blocks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018-2019</copyright>
+    <lastBuildDate>Fri, 08 Feb 2019 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://htafer.github.io/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nanopore Basecalling</title>
+      <link>https://htafer.github.io/post/nanoporebasecalling/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/post/nanoporebasecalling/</guid>
+      <description>Context We are currently sequencing old (500-1500 years old) statues, manuscripts and parchments in order to assess which microorganisms grow/grew on them. To this aim illumina, torrent and now nanopore sequencing are being used. Nanopore sequencing is being done in our lab. The main problem once we got the fast5 data is to basecall them and do further processing. The next few paragraph present an overview of the step we are doing:</description>
+    </item>
+    
+  </channel>
+</rss>

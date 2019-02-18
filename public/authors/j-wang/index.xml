@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>J Wang on Code Blocks</title>
+    <link>https://htafer.github.io/authors/j-wang/</link>
+    <description>Recent content in J Wang on Code Blocks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018-2019</copyright>
+    <lastBuildDate>Mon, 31 Dec 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://htafer.github.io/authors/j-wang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Analyses of pig genomes provide insight into porcine demography and evolution</title>
+      <link>https://htafer.github.io/publication/groenen2012/</link>
+      <pubDate>Mon, 31 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://htafer.github.io/publication/groenen2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analyses of pig genomes provide insight into porcine demography and evolution</title>
+      <link>https://htafer.github.io/publication/groenen2012/</link>
+      <pubDate>Mon, 31 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://htafer.github.io/publication/groenen2012/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

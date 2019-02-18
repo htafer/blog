@@ -1,0 +1,3692 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.3.0">
+  <meta name="generator" content="Hugo 0.53" />
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Erco 1976">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Senior Scientist Bioinformatics">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://htafer.github.io/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.min.css" integrity="sha512-Cdvnk1SFWqcb3An6gMyqDRH40Js8qmsWcSK10I2gSifCe2LilaPMsHd6DldEvQ3uIlCb1qdRUrNeAFFleOu4xQ==" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/sunburst.min.css" crossorigin="anonymous">
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono|Major+Mono+Display|VT323">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-132338789-1', 'auto');
+      ga('set', 'anonymizeIp', true);
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+  <link rel="alternate" href="https://htafer.github.io/index.xml" type="application/rss+xml" title="Code Blocks">
+  <link rel="feed" href="https://htafer.github.io/index.xml" type="application/rss+xml" title="Code Blocks">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://htafer.github.io/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Code Blocks">
+  <meta property="og:url" content="https://htafer.github.io/">
+  <meta property="og:title" content="Code Blocks">
+  <meta property="og:description" content="Senior Scientist Bioinformatics"><meta property="og:image" content="https://htafer.github.io/img/icon-192.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="og:updated_time" content="2017-10-15T00:00:00&#43;02:00">
+  
+
+  
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
+
+  
+
+  <title>Code Blocks</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Code Blocks</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about" data-target="#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/post" data-target="/post">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#posts" data-target="#posts">
+            
+            <span>Recent Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#projects" data-target="#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/publication" data-target="/publication">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#publications" data-target="#publications">
+            
+            <span>Recent Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+
+<span id="homepage" style="display: none"></span>
+
+
+  
+
+
+
+
+
+  
+  
+  
+  <section id="about" class="home-section">
+    <div class="container">
+      
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      
+      
+      <img class="portrait" src="/author/admin/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_250x250_fill_q75_box_center.jpg" itemprop="image" alt="Avatar">
+      
+
+      <div class="portrait-title">
+        <h2 itemprop="name">Erco 1976</h2>
+        <h3 itemprop="jobTitle">Senior Scientist Bioinformatics</h3>
+
+        
+        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+          
+          <span itemprop="name">BOKU</span>
+          
+        </h3>
+        
+      </div>
+
+      <link itemprop="url" href="">
+
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="https://www.researchgate.net/profile/Hakim_Tafer" target="_blank" rel="noopener">
+            <i class="fab fa-researchgate big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="https://scholar.google.co.uk/citations?user=86NfI6IAAAAJ" target="_blank" rel="noopener">
+            <i class="ai ai-google-scholar big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="https://github.com/htafer" target="_blank" rel="noopener">
+            <i class="fab fa-github big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8" itemprop="description">
+
+    
+    
+
+    <p>Erco is a senior scientist in bioinformatics. He has 15 years experience both in academics and industry. He has devised and implemented algorithm to compute RNA secondary structure with a special focus on the influence of secondary structure on RNA-RNA interactions. He has been assembling and annotating genomes and transcriptome from higher eukaryotes, fungi, bacteria and archaea.</p>
+
+<p>His current interests encompass transcriptome analysis and assembly, genome annotation, comparative genomics of extremophiles, CNV and environmental adaptation in plant and fungi, design of analysis pipelines for -omics data. Recently the analysis of metagenomes on work of arts and the story that the microbiome can tell about the geolocation of artefacts has captured his attention.</p>
+
+<p>On his spare-time he rows, bicycles and takes care of his family and garden.</p>
+
+
+    <div class="row">
+
+      
+      <div class="col-md-5">
+        <h3>Interests</h3>
+        <ul class="ul-interests">
+          
+          <li>Bioinformatics</li>
+          
+          <li>Genomics</li>
+          
+          <li>Transcriptomics</li>
+          
+          <li>Comparative genomics</li>
+          
+          <li>Metagenomics</li>
+          
+          <li>Ancient DNA</li>
+          
+          <li>Data Analysis</li>
+          
+          <li>Data Visualisation</li>
+          
+          <li>Artificial Intelligence</li>
+          
+          <li>Next-generation sequencing</li>
+          
+          <li>Microorganism</li>
+          
+          <li>Extremophile</li>
+          
+          <li>Cultural heritage</li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <div class="col-md-7">
+        <h3>Education</h3>
+        <ul class="ul-edu fa-ul">
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">PhD in Bioinformativcs, 2009</p>
+              <p class="institution">Vienna University</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Diploma in Physics, 2001</p>
+              <p class="institution">ETHZ</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Colloquial and Modern Standard Arabic studies, 2003</p>
+              <p class="institution">ILI, Cairo</p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="skills" class="home-section">
+    <div class="container">
+      
+
+
+<div class="row featurette">
+  
+  <div class="col-md-12 section-heading">
+    <h1>Skills</h1>
+    
+  </div>
+  
+
+  
+
+  
+  
+  
+  
+    
+  
+  
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fab fa-r-project"></i></div>
+    <h3>R</h3>
+    <p>100%</p>
+  </div>
+  
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="mfizz icon-perl"></i></div>
+    <h3>perl</h3>
+    <p>100%</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fab fa-python"></i></div>
+    <h3>Python</h3>
+    <p>80%</p>
+  </div>
+  
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="mfizz icon-c"></i></div>
+    <h3>C</h3>
+    <p>70%</p>
+  </div>
+  
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="mfizz icon-cplusplus"></i></div>
+    <h3>C</h3>
+    <p>70%</p>
+  </div>
+  
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="mfizz icon-shell"></i></div>
+    <h3>bash</h3>
+    <p>100%</p>
+  </div>
+  
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="mfizz icon-mysql-alt"></i></div>
+    <h3>mySQL</h3>
+    <p>50%</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fas fa-flask"></i></div>
+    <h3>Nanopore Sequencing</h3>
+    <p>60%</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fas fa-chart-line"></i></div>
+    <h3>Statistics</h3>
+    <p>80%</p>
+  </div>
+  
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="mfizz icon-shell"></i></div>
+    <h3>Matlab</h3>
+    <p>80%</p>
+  </div>
+  
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="experience" class="home-section">
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Experience</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+    
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border exp-fill">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <div class="float-right text-muted exp-meta">
+              <div class="text-right">
+                February 2014 –
+                
+                  Present
+                
+              </div>
+              
+              <div class="text-right">Vienna, Austria</div>
+              
+            </div>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Senior Scientist</h4>
+            <h4 class="card-title exp-company text-muted my-0">Extremophile Center, Prof. Katja Sterflinger</h4>
+            <div class="card-text"><ul>
+<li>Implementation of analysis pipelines in Genomics (Assembly, Annotation), Transcriptomics (Assembly, Differential Expression), Proteomics, SNP and CNV calling for the study of extremophile
+fungi and evolution: <strong>Python/Perl/MySQL/R/BASH/Snakemake</strong></li>
+<li>Data management and visualisation of -omics data for the extremophile center: <strong>Python/Django/MySQL</strong></li>
+<li>Deployment of Pipelines on large computer cluster: <strong>SLURM/Snakemake</strong></li>
+<li>Metagenomics of fungi and bacteria from work of arts (painting, sculpture,parchment): <strong>16S/ITS/Shotgun metagenomics</strong>
+<br /></li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <div class="float-right text-muted exp-meta">
+              <div class="text-right">
+                January 2014 –
+                
+                  December 2018
+                
+              </div>
+              
+              <div class="text-right">Vienna, Austria</div>
+              
+            </div>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Analyst</h4>
+            <h4 class="card-title exp-company text-muted my-0">Metacure GmbH</h4>
+            <div class="card-text"><ul>
+<li>Statistical analysis of patients data for Metacure, a biomedical company developing pacemaker-like device to treat diabetes. <strong>Matlab/R</strong>
+<br /></li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <div class="float-right text-muted exp-meta">
+              <div class="text-right">
+                September 2012 –
+                
+                  February 2014
+                
+              </div>
+              
+              <div class="text-right">Vienna, Austria</div>
+              
+            </div>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Post-Doc</h4>
+            <h4 class="card-title exp-company text-muted my-0">MFPL Vienna, Prof. Renee Schroeder</h4>
+            <div class="card-text"><ul>
+<li>Analysis of NGS experiments for the SPF   RNA regulation of the Transcriptome : <strong>R,Python,Perl,BASH</strong></li>
+<li>Prediction of RNA-RNA interactions in bacteria</li>
+<li>Development of tools to compare hidden markov models to detect remote homologies between RNA classes and DNA-Repeat Classes: <strong>C,Perl</strong>
+<br /></li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <div class="float-right text-muted exp-meta">
+              <div class="text-right">
+                April 2009 –
+                
+                  September 2012
+                
+              </div>
+              
+              <div class="text-right">Leipzig, Germany</div>
+              
+            </div>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Post-Doc</h4>
+            <h4 class="card-title exp-company text-muted my-0">University of Leipzig, Prof. Peter Stadler</h4>
+            <div class="card-text"><ul>
+<li>Next generation sequencing analysis: <strong>Perl,Python,C,R</strong></li>
+<li>Non-coding RNA functional annotation with machine learning (SVM): <strong>Perl,Python,C,R</strong></li>
+<li>Selection of the best ML approach and the corresponding hyperparameters: <strong>Perl,Python,C,R</strong></li>
+<li>Development of a tool to score the effects of single nucleotide polymorphisms on protein and ncRNAs: <strong>C,R</strong></li>
+<li>Cooperation with Prof. Dr. Kreil to develop a new approach for microarray design: <strong>C,R</strong>
+<br /></li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <div class="float-right text-muted exp-meta">
+              <div class="text-right">
+                October 2008 –
+                
+                  September 2012
+                
+              </div>
+              
+              <div class="text-right">Copenhagen, Denmark</div>
+              
+            </div>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Post-Doc</h4>
+            <h4 class="card-title exp-company text-muted my-0">University of Copenhagen/Lundbeck, Prof. Jan Gorodkin</h4>
+            <div class="card-text"><ul>
+<li>Development of new approaches to design optimized small interferring RNAs with Machine Learning: <strong>Python,R</strong>
+<br /></li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <div class="float-right text-muted exp-meta">
+              <div class="text-right">
+                March 2005 –
+                
+                  February 2009
+                
+              </div>
+              
+              <div class="text-right">Vienna, Austria</div>
+              
+            </div>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">PhD</h4>
+            <h4 class="card-title exp-company text-muted my-0">University of Vienna / Siemens, Prof. Ivo Hofacker</h4>
+            <div class="card-text"><ul>
+<li>Study of RNA-RNA interactions: <strong>C,R</strong></li>
+<li>Development of fast algorithms to predict interactions between two RNA strands: <strong>C,R</strong></li>
+<li>Development of a new method to efficiently design siRNAs: <strong>C,R</strong></li>
+<li>Prediction of (small) RNAs-mRNA interactions in bacteria and their post-transcriptional effects: <strong>C,R</strong>
+<br /></li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <div class="float-right text-muted exp-meta">
+              <div class="text-right">
+                September 2002 –
+                
+                  January 2003
+                
+              </div>
+              
+              <div class="text-right">Geneve, Switzerland</div>
+              
+            </div>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Teacher</h4>
+            <h4 class="card-title exp-company text-muted my-0">Highschool</h4>
+            <div class="card-text"><ul>
+<li>Math teacher
+<br /></li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <div class="float-right text-muted exp-meta">
+              <div class="text-right">
+                October 2001 –
+                
+                  May 2002
+                
+              </div>
+              
+              <div class="text-right">Zurich, Switzerland</div>
+              
+            </div>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Research assistant, Prof. Kurt Wuehtrich</h4>
+            <h4 class="card-title exp-company text-muted my-0">ETHZ</h4>
+            <div class="card-text"><ul>
+<li>Study of protein structures with NMR spectroscopy.</li>
+<li>Development of tools to facilitate protein structural annotation
+<br /></li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="accomplishments" class="home-section">
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Accomplish&shy;ments</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+    
+    <div class="row experience">
+      
+      <div class="col py-2">
+        <div class="card course">
+          <div class="card-body">
+            <div class="float-right text-muted exp-meta">
+              <div class="text-right">
+                Sep 2018
+                
+              </div>
+              <div class="text-right">
+                
+                <h6 class="card-title exp-company text-muted my-0">
+                  <a href="https://www.coursera.org/account/accomplishments/certificate/MTCGDDLZAMPM" target="_blank" rel="noopener">
+                    See certificate
+                  </a>
+                </h6>
+                
+              </div>
+            </div>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Sequence Models</h4>
+            <h4 class="card-title exp-company text-muted my-0">
+                Coursera/deeplearning.ai
+              </h4>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col py-2">
+        <div class="card course">
+          <div class="card-body">
+            <div class="float-right text-muted exp-meta">
+              <div class="text-right">
+                Sep 2018
+                
+              </div>
+              <div class="text-right">
+                
+                <h6 class="card-title exp-company text-muted my-0">
+                  <a href="https://www.coursera.org/account/accomplishments/specialization/L6RPZ39RJKZ3" target="_blank" rel="noopener">
+                    See certificate
+                  </a>
+                </h6>
+                
+              </div>
+            </div>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Deep Learning Specialization</h4>
+            <h4 class="card-title exp-company text-muted my-0">
+                Coursera
+              </h4>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col py-2">
+        <div class="card course">
+          <div class="card-body">
+            <div class="float-right text-muted exp-meta">
+              <div class="text-right">
+                Jan 2018
+                
+              </div>
+              <div class="text-right">
+                
+                <h6 class="card-title exp-company text-muted my-0">
+                  <a href="https://www.coursera.org/account/accomplishments/certificate/6WKAQQCSQ2WB" target="_blank" rel="noopener">
+                    See certificate
+                  </a>
+                </h6>
+                
+              </div>
+            </div>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Algorithmic Toolbox</h4>
+            <h4 class="card-title exp-company text-muted my-0">
+                Coursera/UC San Diego
+              </h4>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col py-2">
+        <div class="card course">
+          <div class="card-body">
+            <div class="float-right text-muted exp-meta">
+              <div class="text-right">
+                Dec 2017
+                
+              </div>
+              <div class="text-right">
+                
+                <h6 class="card-title exp-company text-muted my-0">
+                  <a href="https://www.coursera.org/account/accomplishments/certificate/N26M5RG7EXEJ" target="_blank" rel="noopener">
+                    See certificate
+                  </a>
+                </h6>
+                
+              </div>
+            </div>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Convolutional Neural Networks</h4>
+            <h4 class="card-title exp-company text-muted my-0">
+                Coursera/deeplearning.ai
+              </h4>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col py-2">
+        <div class="card course">
+          <div class="card-body">
+            <div class="float-right text-muted exp-meta">
+              <div class="text-right">
+                Nov 2017
+                
+              </div>
+              <div class="text-right">
+                
+                <h6 class="card-title exp-company text-muted my-0">
+                  <a href="https://www.coursera.org/account/accomplishments/certificate/6MRYDX3XL7SV" target="_blank" rel="noopener">
+                    See certificate
+                  </a>
+                </h6>
+                
+              </div>
+            </div>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization</h4>
+            <h4 class="card-title exp-company text-muted my-0">
+                Coursera/deeplearning.ai
+              </h4>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col py-2">
+        <div class="card course">
+          <div class="card-body">
+            <div class="float-right text-muted exp-meta">
+              <div class="text-right">
+                Oct 2017
+                
+              </div>
+              <div class="text-right">
+                
+                <h6 class="card-title exp-company text-muted my-0">
+                  <a href="https://www.coursera.org/account/accomplishments/certificate/A6FTGG7KM9HJ" target="_blank" rel="noopener">
+                    See certificate
+                  </a>
+                </h6>
+                
+              </div>
+            </div>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Structuring Machine Learning Projects</h4>
+            <h4 class="card-title exp-company text-muted my-0">
+                Coursera/deeplearning.ai
+              </h4>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col py-2">
+        <div class="card course">
+          <div class="card-body">
+            <div class="float-right text-muted exp-meta">
+              <div class="text-right">
+                Sep 2017
+                
+              </div>
+              <div class="text-right">
+                
+                <h6 class="card-title exp-company text-muted my-0">
+                  <a href="https://www.coursera.org/account/accomplishments/certificate/LTYS5UQG8NFB" target="_blank" rel="noopener">
+                    See certificate
+                  </a>
+                </h6>
+                
+              </div>
+            </div>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Neural Networks and Deep Learning</h4>
+            <h4 class="card-title exp-company text-muted my-0">
+                Coursera/deeplearning.ai
+              </h4>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col py-2">
+        <div class="card course">
+          <div class="card-body">
+            <div class="float-right text-muted exp-meta">
+              <div class="text-right">
+                Aug 2017
+                
+              </div>
+              <div class="text-right">
+                
+                <h6 class="card-title exp-company text-muted my-0">
+                  <a href="https://www.coursera.org/account/accomplishments/certificate/APURNSEEJQYA" target="_blank" rel="noopener">
+                    See certificate
+                  </a>
+                </h6>
+                
+              </div>
+            </div>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Machine Learning</h4>
+            <h4 class="card-title exp-company text-muted my-0">
+                Coursera/Stanford University
+              </h4>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="publications" class="home-section">
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Recent Publications</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/sterflinger2018/" itemprop="url">Big sound and extreme fungi-xerophilic, halotolerant aspergilli and penicillia with low optimal temperature as invaders of historic pipe organs</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Recent investigations have shown that xerophilic fungi may pose a biodeterioration risk by threatening objects of cultural heritage …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/k-sterflinger/">K Sterflinger</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/c-voitl/">C Voitl</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/k-lopandic/">K Lopandic</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/g-pinar/">G Pinar</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/h-tafer/">H Tafer</a></span></span>
+  
+
+
+
+      </div>
+    </div>
+
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.3390/life8020022" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/tafer2018deterioration/" itemprop="url">First evaluation of the microbiome of built cultural heritage by using the Ion Torrent next generation sequencing platform</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      The aim of this study was to detect the community structure of Bacteria and Archaea, especially halophilic microorganisms, involved in …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/justyna-adamiak/">Justyna Adamiak</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/anna-otlewska/">Anna Otlewska</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/hakim-tafer/">Hakim Tafer</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/ksenija-lopandic/">Ksenija Lopandic</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/beata-gutarowska/">Beata Gutarowska</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/katja-sterflinger/">Katja Sterflinger</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/guadalupe-pinar/">Guadalupe Pinar</a></span></span>
+  
+
+
+
+      </div>
+    </div>
+
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1016/j.ibiod.2017.01.040" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/tafer2018exo/" itemprop="url">Transcriptome study of an Exophiala dermatitidis PKS1 mutant on an ex vivo skin model: Is melanin important for infection?</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      The black yeast Exophiala dermatitidis is a polyextremophilic human pathogen, especially known for growing in man-made extreme …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/c-poyntner/">C Poyntner</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/u-mirastschijski/">U Mirastschijski</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/k-sterflinger/">K Sterflinger</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/h-tafer/">H Tafer</a></span></span>
+  
+
+
+
+      </div>
+    </div>
+
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.3389/fmicb.2018.01457" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/tesei2017/" itemprop="url">Draft Genome Sequences of the Black Rock Fungus extlessiextgreaterKnufia petricolaextless/iextgreater and Its Spontaneous Nonmelanized Mutant</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      extlesspextgreater The fungal genus extlessitalicextgreaterKnufiaextless/italicextgreater mostly comprises extremotolerant species from …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/donatella-tesei/">Donatella Tesei</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/hakim-tafer/">Hakim Tafer</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/caroline-poyntner/">Caroline Poyntner</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/guadalupe-pinar/">Guadalupe Pinar</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/ksenija-lopandic/">Ksenija Lopandic</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/katja-sterflinger/">Katja Sterflinger</a></span></span>
+  
+
+
+
+      </div>
+    </div>
+
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1128/genomeA.01242-17" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/tafer2017/" itemprop="url">Genomic and transcriptomic analysis of the toluene degrading black yeast Cladophialophora immunda</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Cladophialophora immunda is an ascomycotal species belonging to the group of the black yeasts. These fungi have a thick and melanized …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/b-blasi/">B Blasi</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/h-tafer/">H Tafer</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/c-kustor/">C Kustor</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/c-poyntner/">C Poyntner</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/k-lopandic/">K Lopandic</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/k-sterflinger/">K Sterflinger</a></span></span>
+  
+
+
+
+      </div>
+    </div>
+
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1038/s41598-017-11807-8" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/tafer2016a/" itemprop="url">Draft Genome of Debaryomyces fabryi CBS 789 T , Isolated from a</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      The yeast genus Debaryomyces comprises species isolated from various natural habitats, man-made environments, and clinical materials. …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/hakim-tafer/">Hakim Tafer</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/katja-sterflinger/">Katja Sterflinger</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/ksenija-lopandic/">Ksenija Lopandic</a></span></span>
+  
+
+
+
+      </div>
+    </div>
+
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1128/genomeA.01580-15.Copyright" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/tafer2016chaeto/" itemprop="url">Genome sequence of the filamentous soil fungus chaetomium cochliodes reveals abundance of genes for heme enzymes from all peroxidase and catalase superfamilies</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      BACKGROUND The ascomycetous family Chaetomiaceae (class Sordariomycetes) includes numerous soilborn, saprophytic, endophytic and …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/marcel-zamocky/">Marcel Zamocky</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/hakim-tafer/">Hakim Tafer</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/katarina-chovanova/">Katarina Chovanova</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/ksenija-lopandic/">Ksenija Lopandic</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/anna-kamlarova/">Anna Kamlarova</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/christian-obinger/">Christian Obinger</a></span></span>
+  
+
+
+
+      </div>
+    </div>
+
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1186/s12864-016-3111-6" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/blasi2016/" itemprop="url">Pathogenic yet environmentally friendly? black fungal candidates for bioremediation of pollutants</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      A collection of 163 strains of black yeast-like fungi from the CBS Fungal Biodiversity Center (Utrecht, The Netherlands), has been …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/barbara-blasi/">Barbara Blasi</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/caroline-poyntner/">Caroline Poyntner</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/tamara-rudavsky/">Tamara Rudavsky</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/francesc-x.-prenafeta-boldu/">Francesc X. Prenafeta-Boldu</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/sybren-de-hoog/">Sybren De Hoog</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/hakim-tafer/">Hakim Tafer</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/katja-sterflinger/">Katja Sterflinger</a></span></span>
+  
+
+
+
+      </div>
+    </div>
+
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1080/01490451.2015.1052118" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/tafer2016skin/" itemprop="url">The transcriptome of Exophiala dermatitidis during Ex-vivo skin model infection</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Exophiala dermatitidis, a black yeast, is a widespread polyextremophile and human pathogen. The fungus can be isolated from extreme …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/caroline-poyntner/">Caroline Poyntner</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/barbara-blasi/">Barbara Blasi</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/elsa-arcalis/">Elsa Arcalis</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/ursula-mirastschijski/">Ursula Mirastschijski</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/katja-sterflinger/">Katja Sterflinger</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/hakim-tafer/">Hakim Tafer</a></span></span>
+  
+
+
+
+      </div>
+    </div>
+
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.3389/fcimb.2016.00136" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/pinar2015/" itemprop="url">Amid the possible causes of a very famous foxing: Molecular and microscopic insight into Leonardo da Vinci&#39;s self-portrait</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Leonardo da Vinci&rsquo;s self‐portrait is affected by foxing spots. The portrait has no fungal or bacterial infections in place, but …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/g-pinar/">G Pinar</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/h-tafer/">H Tafer</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/k-sterflinger/">K Sterflinger</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/f-pinzari/">F Pinzari</a></span></span>
+  
+
+
+
+      </div>
+    </div>
+
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1111/1758-2229.12313" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+
+    
+    <div class="see-all">
+      <a href="/publication/">
+        See all publications
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </div>
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="talks" class="home-section">
+    <div class="container">
+      
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Recent &amp; Upcoming Talks</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+
+    
+    
+
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/desousa2019/" itemprop="url">Summary of Bioinformatics Expertise</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Summary of my Bioinformatics Experience
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div>
+        
+        Jan 24, 2019
+        
+          2:00 PM
+          
+        
+
+        
+          <span class="middot-divider"></span> Presentation talk
+        
+      </div>
+      <div itemprop="author">
+        Hakim Tafer</div>
+    </div>
+
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/slides.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/internal-project/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talk/desousa2019/">
+      <img src="/talk/desousa2019/featured_hu218ec4b7f100b78e96c2e4b0a3a32a2d_164984_150x0_resize_box_2.png" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/leonardo2018/" itemprop="url">New Trends and Methodologies in Cultural Heritage Studies: Leonardos Codice del volo</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Population Genomics of the Codice del Volo authored by Leonardo da Vinci
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div>
+        
+        Dec 11, 2018
+        
+          2:00 PM
+          
+        
+
+        
+          <span class="middot-divider"></span> Co
+        
+      </div>
+      <div itemprop="author">
+        Hakim Tafer, Guadalupe Pinar, Caroline Poyntner, Katja Sterflinger</div>
+    </div>
+
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/Rome_Lonardo_New_HT.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/internal-project/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talk/leonardo2018/">
+      <img src="/talk/leonardo2018/featured_hu7c83c63a0f06ec972e7e7d0b76c16ba5_6212527_150x0_resize_box_2.png" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/statue2018/" itemprop="url">IF STONES COULD SPEAK...WHAT WOULD THEY TELL US ABOUT THEIR HISTORY?</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Amplicon sequencing of stolen artefacts: Reconstructing their travel histories
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div>
+        
+        Oct 11, 2018
+        
+          2:00 PM
+          
+        
+
+        
+      </div>
+      <div itemprop="author">
+        Guadalupe Piñar, Hakim Tafer, Caroline Poyntner, Katja Sterflinger</div>
+    </div>
+
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/Pinar_ECBSM_final_2018.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/internal-project/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talk/statue2018/">
+      <img src="/talk/statue2018/featured_hu50d9c157e71494d3960c5330d0714aac_326850_150x0_resize_q75_box.jpg" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="posts" class="home-section">
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Recent Posts</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+      
+        
+
+<div class="media stream-item" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="headline">
+      <a href="/post/hugo/" itemprop="url">Blogging from emacs with HUGO and the academic themes</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      I am starting to blog from emacs and the org-mode and publish the posts on my github-hosted page. Below I list a of link that helped me …
+    </div>
+    
+
+    <div class="stream-meta">
+    
+
+
+
+<meta content="2019-02-07 00:00:00 &#43;0100 CET" itemprop="datePublished">
+<meta content="2019-02-07 00:00:00 &#43;0100 CET" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Feb 7, 2019</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/post/hugo/#disqus_thread"></a>
+  
+
+  
+
+  
+
+</div>
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+<div class="media stream-item" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="headline">
+      <a href="/post/kegg2/" itemprop="url">KEGG analysis of regulated genes</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      I have been terminating a project where proteomic profiles of of a plant seed have been done at a various developmental stages. On of …
+    </div>
+    
+
+    <div class="stream-meta">
+    
+
+
+
+<meta content="2019-02-08 00:00:00 &#43;0100 CET" itemprop="datePublished">
+<meta content="2019-02-08 00:00:00 &#43;0100 CET" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Feb 8, 2019</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/post/kegg2/#disqus_thread"></a>
+  
+
+  
+
+  
+
+</div>
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+<div class="media stream-item" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="headline">
+      <a href="/post/nanoporebasecalling/" itemprop="url">Nanopore Basecalling</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Context We are currently sequencing old (500-1500 years old) statues, manuscripts and parchments in order to assess which …
+    </div>
+    
+
+    <div class="stream-meta">
+    
+
+
+
+<meta content="2019-02-08 00:00:00 &#43;0100 CET" itemprop="datePublished">
+<meta content="2019-02-08 00:00:00 &#43;0100 CET" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Feb 8, 2019</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 min read
+  </span>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/post/nanoporebasecalling/#disqus_thread"></a>
+  
+
+  
+
+  
+
+</div>
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="projects" class="home-section">
+    <div class="container">
+      
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+
+    <h1>Projects</h1>
+    
+
+  </div>
+  <div class="col-xs-12 col-md-8">
+
+
+
+    
+
+    
+
+      
+
+      
+      
+      
+      
+        
+      
+
+      <span class="d-none default-project-filter">*</span>
+
+      
+      
+      <div class="project-toolbar">
+        <div class="project-filters">
+          <div class="btn-toolbar">
+            <div class="btn-group flex-wrap">
+              
+                
+                
+                
+                  
+                
+                <a href="#" data-filter="*" class="btn btn-primary btn-lg active">All</a>
+              
+                
+                
+                
+                <a href="#" data-filter=".js-id-non-coding-RNA" class="btn btn-primary btn-lg">ncRNA</a>
+              
+                
+                
+                
+                <a href="#" data-filter=".js-id-Fungi" class="btn btn-primary btn-lg">Fungi</a>
+              
+                
+                
+                
+                <a href="#" data-filter=".js-id-Extremophile" class="btn btn-primary btn-lg">Extremophile</a>
+              
+                
+                
+                
+                <a href="#" data-filter=".js-id-Genomics" class="btn btn-primary btn-lg">Genomics</a>
+              
+                
+                
+                
+                <a href="#" data-filter=".js-id-Transcriptomics" class="btn btn-primary btn-lg">Transcriptomics</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    
+
+    <div class="row isotope projects-container js-layout-masonry ">
+      
+        
+        
+        
+          
+          
+        
+        
+          
+
+
+
+
+
+<div class="col-lg-12 project-item isotope-item js-id-Demo" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-copy pub-icon" aria-hidden="true"></i>
+
+  <span class="project-title">
+    <a href="http://example.org" target="_blank" rel="noopener" itemprop="url">External Project</a>
+  </span>
+
+  <p class="project-summary">An example of linking directly to an external project website using <code>external_link</code>.</p>
+</div>
+
+        
+      
+        
+        
+        
+        
+          
+
+
+
+
+
+<div class="col-lg-12 project-item isotope-item js-id-Deep-Learning" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-copy pub-icon" aria-hidden="true"></i>
+
+  <span class="project-title">
+    <a href="/project/internal-project/"  itemprop="url">Internal Project</a>
+  </span>
+
+  <p class="project-summary">An example of using the in-built project page.</p>
+</div>
+
+        
+      
+    </div>
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="tags" class="home-section">
+    <div class="container">
+      
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Tags</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+      
+      
+
+      
+      
+      
+      
+      
+
+      <div class="tag-cloud">
+        
+          
+          
+          
+          <a href="/tags/16s/" style="font-size:1.65rem">16S</a>
+        
+          
+          
+          
+          <a href="/tags/ancient/" style="font-size:1.65rem">Ancient</a>
+        
+          
+          
+          
+          <a href="/tags/dna/" style="font-size:1.65rem">DNA</a>
+        
+          
+          
+          
+          <a href="/tags/deep-learning/" style="font-size:0.8rem">Deep Learning</a>
+        
+          
+          
+          
+          <a href="/tags/demo/" style="font-size:0.8rem">Demo</a>
+        
+          
+          
+          
+          <a href="/tags/genomics/" style="font-size:1.65rem">Genomics</a>
+        
+          
+          
+          
+          <a href="/tags/kegg/" style="font-size:1.65rem">KEGG</a>
+        
+          
+          
+          
+          <a href="/tags/ont/" style="font-size:0.8rem">ONT</a>
+        
+          
+          
+          
+          <a href="/tags/population/" style="font-size:1.65rem">Population</a>
+        
+          
+          
+          
+          <a href="/tags/r/" style="font-size:0.8rem">R</a>
+        
+          
+          
+          
+          <a href="/tags/rest/" style="font-size:0.8rem">REST</a>
+        
+          
+          
+          
+          <a href="/tags/rna/" style="font-size:0.8rem">RNA</a>
+        
+          
+          
+          
+          <a href="/tags/academic/" style="font-size:0.8rem">academic</a>
+        
+          
+          
+          
+          <a href="/tags/albacore/" style="font-size:0.8rem">albacore</a>
+        
+          
+          
+          
+          <a href="/tags/annotation/" style="font-size:0.8rem">annotation</a>
+        
+          
+          
+          
+          <a href="/tags/api/" style="font-size:0.8rem">api</a>
+        
+          
+          
+          
+          <a href="/tags/artefacts/" style="font-size:1.65rem">artefacts</a>
+        
+          
+          
+          
+          <a href="/tags/bioinformatics/" style="font-size:1.65rem">bioinformatics</a>
+        
+          
+          
+          
+          <a href="/tags/code/" style="font-size:0.8rem">code</a>
+        
+          
+          
+          
+          <a href="/tags/comparative/" style="font-size:2.1472181256129828rem">comparative</a>
+        
+          
+          
+          
+          <a href="/tags/davinci/" style="font-size:0.8rem">daVinci</a>
+        
+          
+          
+          
+          <a href="/tags/differential/" style="font-size:0.8rem">differential</a>
+        
+          
+          
+          
+          <a href="/tags/emacs/" style="font-size:0.8rem">emacs</a>
+        
+          
+          
+          
+          <a href="/tags/embedded/" style="font-size:0.8rem">embedded</a>
+        
+          
+          
+          
+          <a href="/tags/enrichment/" style="font-size:1.65rem">enrichment</a>
+        
+          
+          
+          
+          <a href="/tags/expression/" style="font-size:0.8rem">expression</a>
+        
+          
+          
+          
+          <a href="/tags/functional/" style="font-size:0.8rem">functional</a>
+        
+          
+          
+          
+          <a href="/tags/genes/" style="font-size:1.65rem">genes</a>
+        
+          
+          
+          
+          <a href="/tags/genomics/" style="font-size:1.65rem">genomics</a>
+        
+          
+          
+          
+          <a href="/tags/guppy/" style="font-size:0.8rem">guppy</a>
+        
+          
+          
+          
+          <a href="/tags/hugo/" style="font-size:1.65rem">hugo</a>
+        
+          
+          
+          
+          <a href="/tags/interaction/" style="font-size:0.8rem">interaction</a>
+        
+          
+          
+          
+          <a href="/tags/jatropha/" style="font-size:0.8rem">jatropha</a>
+        
+          
+          
+          
+          <a href="/tags/metagenomics/" style="font-size:0.8rem">metagenomics</a>
+        
+          
+          
+          
+          <a href="/tags/microbiome/" style="font-size:1.65rem">microbiome</a>
+        
+          
+          
+          
+          <a href="/tags/nanopore/" style="font-size:0.8rem">nanopore</a>
+        
+          
+          
+          
+          <a href="/tags/ncrna/" style="font-size:0.8rem">ncRNA</a>
+        
+          
+          
+          
+          <a href="/tags/org/" style="font-size:0.8rem">org</a>
+        
+          
+          
+          
+          <a href="/tags/pathview/" style="font-size:0.8rem">pathview</a>
+        
+          
+          
+          
+          <a href="/tags/perl/" style="font-size:0.8rem">perl</a>
+        
+          
+          
+          
+          <a href="/tags/plant/" style="font-size:0.8rem">plant</a>
+        
+          
+          
+          
+          <a href="/tags/plot/" style="font-size:0.8rem">plot</a>
+        
+          
+          
+          
+          <a href="/tags/proteomics/" style="font-size:1.65rem">proteomics</a>
+        
+          
+          
+          
+          <a href="/tags/python/" style="font-size:0.8rem">python</a>
+        
+          
+          
+          
+          <a href="/tags/sequencing/" style="font-size:0.8rem">sequencing</a>
+        
+          
+          
+          
+          <a href="/tags/sirna/" style="font-size:0.8rem">siRNA</a>
+        
+          
+          
+          
+          <a href="/tags/smuggled/" style="font-size:0.8rem">smuggled</a>
+        
+          
+          
+          
+          <a href="/tags/statue/" style="font-size:0.8rem">statue</a>
+        
+          
+          
+          
+          <a href="/tags/transcriptomics/" style="font-size:0.8rem">transcriptomics</a>
+        
+          
+          
+          
+          <a href="/tags/tutorial/" style="font-size:0.8rem">tutorial</a>
+        
+          
+          
+          
+          <a href="/tags/visualization/" style="font-size:0.8rem">visualization</a>
+        
+      </div>
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+
+
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2018-2019 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/lisp.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/C.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+    <script id="dsq-count-scr" src="//Erco1976.disqus.com/count.js" async></script>
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.7903dc64949b0cecbfa70e940e162fa7.js"></script>
+
+  </body>
+</html>
+
+

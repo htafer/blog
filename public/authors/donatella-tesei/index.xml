@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Donatella Tesei on Code Blocks</title>
+    <link>https://htafer.github.io/authors/donatella-tesei/</link>
+    <description>Recent content in Donatella Tesei on Code Blocks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018-2019</copyright>
+    <lastBuildDate>Sun, 31 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://htafer.github.io/authors/donatella-tesei/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Draft Genome Sequences of the Black Rock Fungus extlessiextgreaterKnufia petricolaextless/iextgreater and Its Spontaneous Nonmelanized Mutant</title>
+      <link>https://htafer.github.io/publication/tesei2017/</link>
+      <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://htafer.github.io/publication/tesei2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From Glacier to Sauna: RNA-Seq of the Human Pathogen Black Fungus Exophiala dermatitidis under Varying Temperature Conditions Exhibits Common and Novel Fungal Response.</title>
+      <link>https://htafer.github.io/publication/blasi2015/</link>
+      <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://htafer.github.io/publication/blasi2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proteome of tolerance fine-tuning in the human pathogen black yeast Exophiala dermatitidis.</title>
+      <link>https://htafer.github.io/publication/tesei2015a/</link>
+      <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://htafer.github.io/publication/tesei2015a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

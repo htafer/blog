@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Code Blocks</title>
+    <link>https://htafer.github.io/tags/</link>
+    <description>Recent content in Tags on Code Blocks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018-2019</copyright>
+    <lastBuildDate>Tue, 11 Dec 2018 14:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://htafer.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>16S</title>
+      <link>https://htafer.github.io/tags/16s/</link>
+      <pubDate>Tue, 11 Dec 2018 14:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/16s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ancient</title>
+      <link>https://htafer.github.io/tags/ancient/</link>
+      <pubDate>Tue, 11 Dec 2018 14:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/ancient/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DNA</title>
+      <link>https://htafer.github.io/tags/dna/</link>
+      <pubDate>Tue, 11 Dec 2018 14:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/dna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>https://htafer.github.io/tags/deep-learning/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://htafer.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demo</title>
+      <link>https://htafer.github.io/tags/demo/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://htafer.github.io/tags/demo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genomics</title>
+      <link>https://htafer.github.io/tags/genomics/</link>
+      <pubDate>Tue, 11 Dec 2018 14:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/genomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KEGG</title>
+      <link>https://htafer.github.io/tags/kegg/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/kegg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ONT</title>
+      <link>https://htafer.github.io/tags/ont/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/ont/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Population</title>
+      <link>https://htafer.github.io/tags/population/</link>
+      <pubDate>Tue, 11 Dec 2018 14:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/population/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://htafer.github.io/tags/r/</link>
+      <pubDate>Thu, 07 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>REST</title>
+      <link>https://htafer.github.io/tags/rest/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/rest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RNA</title>
+      <link>https://htafer.github.io/tags/rna/</link>
+      <pubDate>Thu, 24 Jan 2019 14:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/rna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>academic</title>
+      <link>https://htafer.github.io/tags/academic/</link>
+      <pubDate>Thu, 07 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/academic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>albacore</title>
+      <link>https://htafer.github.io/tags/albacore/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/albacore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>annotation</title>
+      <link>https://htafer.github.io/tags/annotation/</link>
+      <pubDate>Thu, 24 Jan 2019 14:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/annotation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>api</title>
+      <link>https://htafer.github.io/tags/api/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>artefacts</title>
+      <link>https://htafer.github.io/tags/artefacts/</link>
+      <pubDate>Tue, 11 Dec 2018 14:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/artefacts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bioinformatics</title>
+      <link>https://htafer.github.io/tags/bioinformatics/</link>
+      <pubDate>Thu, 07 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/bioinformatics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>code</title>
+      <link>https://htafer.github.io/tags/code/</link>
+      <pubDate>Thu, 07 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>comparative</title>
+      <link>https://htafer.github.io/tags/comparative/</link>
+      <pubDate>Thu, 24 Jan 2019 14:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/comparative/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>daVinci</title>
+      <link>https://htafer.github.io/tags/davinci/</link>
+      <pubDate>Tue, 11 Dec 2018 14:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/davinci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>differential</title>
+      <link>https://htafer.github.io/tags/differential/</link>
+      <pubDate>Thu, 24 Jan 2019 14:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/differential/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emacs</title>
+      <link>https://htafer.github.io/tags/emacs/</link>
+      <pubDate>Thu, 07 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>embedded</title>
+      <link>https://htafer.github.io/tags/embedded/</link>
+      <pubDate>Thu, 07 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/embedded/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>enrichment</title>
+      <link>https://htafer.github.io/tags/enrichment/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/enrichment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>expression</title>
+      <link>https://htafer.github.io/tags/expression/</link>
+      <pubDate>Thu, 24 Jan 2019 14:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/expression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>functional</title>
+      <link>https://htafer.github.io/tags/functional/</link>
+      <pubDate>Thu, 24 Jan 2019 14:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/functional/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>genes</title>
+      <link>https://htafer.github.io/tags/genes/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/genes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>genomics</title>
+      <link>https://htafer.github.io/tags/genomics/</link>
+      <pubDate>Tue, 11 Dec 2018 14:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/genomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>guppy</title>
+      <link>https://htafer.github.io/tags/guppy/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/guppy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://htafer.github.io/tags/hugo/</link>
+      <pubDate>Thu, 07 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>interaction</title>
+      <link>https://htafer.github.io/tags/interaction/</link>
+      <pubDate>Thu, 24 Jan 2019 14:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/interaction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jatropha</title>
+      <link>https://htafer.github.io/tags/jatropha/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://htafer.github.io/tags/jatropha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metagenomics</title>
+      <link>https://htafer.github.io/tags/metagenomics/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/metagenomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>microbiome</title>
+      <link>https://htafer.github.io/tags/microbiome/</link>
+      <pubDate>Tue, 11 Dec 2018 14:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/microbiome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nanopore</title>
+      <link>https://htafer.github.io/tags/nanopore/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/nanopore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ncRNA</title>
+      <link>https://htafer.github.io/tags/ncrna/</link>
+      <pubDate>Thu, 24 Jan 2019 14:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/ncrna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>org</title>
+      <link>https://htafer.github.io/tags/org/</link>
+      <pubDate>Thu, 07 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/org/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pathview</title>
+      <link>https://htafer.github.io/tags/pathview/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/pathview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>perl</title>
+      <link>https://htafer.github.io/tags/perl/</link>
+      <pubDate>Thu, 07 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/perl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plant</title>
+      <link>https://htafer.github.io/tags/plant/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/plant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plot</title>
+      <link>https://htafer.github.io/tags/plot/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/plot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>proteomics</title>
+      <link>https://htafer.github.io/tags/proteomics/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/proteomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://htafer.github.io/tags/python/</link>
+      <pubDate>Thu, 07 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sequencing</title>
+      <link>https://htafer.github.io/tags/sequencing/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/sequencing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>siRNA</title>
+      <link>https://htafer.github.io/tags/sirna/</link>
+      <pubDate>Thu, 24 Jan 2019 14:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/sirna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>smuggled</title>
+      <link>https://htafer.github.io/tags/smuggled/</link>
+      <pubDate>Thu, 11 Oct 2018 14:00:00 +0200</pubDate>
+      
+      <guid>https://htafer.github.io/tags/smuggled/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>statue</title>
+      <link>https://htafer.github.io/tags/statue/</link>
+      <pubDate>Thu, 11 Oct 2018 14:00:00 +0200</pubDate>
+      
+      <guid>https://htafer.github.io/tags/statue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>transcriptomics</title>
+      <link>https://htafer.github.io/tags/transcriptomics/</link>
+      <pubDate>Thu, 24 Jan 2019 14:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/transcriptomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorial</title>
+      <link>https://htafer.github.io/tags/tutorial/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>visualization</title>
+      <link>https://htafer.github.io/tags/visualization/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/visualization/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

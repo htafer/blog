@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tafer H. on Code Blocks</title>
+    <link>https://htafer.github.io/authors/tafer-h./</link>
+    <description>Recent content in Tafer H. on Code Blocks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018-2019</copyright>
+    <lastBuildDate>Thu, 31 Dec 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://htafer.github.io/authors/tafer-h./index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Non-coding RNA annotation of the genome of Trichoplax adhaerens</title>
+      <link>https://htafer.github.io/publication/hertel2009/</link>
+      <pubDate>Thu, 31 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://htafer.github.io/publication/hertel2009/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

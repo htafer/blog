@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>admin on Code Blocks</title>
+    <link>https://htafer.github.io/authors/admin/</link>
+    <description>Recent content in admin on Code Blocks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018-2019</copyright>
+    
+	<atom:link href="https://htafer.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://htafer.github.io/author/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://htafer.github.io/author/admin/</guid>
+      <description>Erco is a senior scientist in bioinformatics. He has 15 years experience both in academics and industry. He has devised and implemented algorithm to compute RNA secondary structure with a special focus on the influence of secondary structure on RNA-RNA interactions. He has been assembling and annotating genomes and transcriptome from higher eukaryotes, fungi, bacteria and archaea.
+His current interests encompass transcriptome analysis and assembly, genome annotation, comparative genomics of extremophiles, CNV and environmental adaptation in plant and fungi, design of analysis pipelines for -omics data.</description>
+    </item>
+    
+  </channel>
+</rss>

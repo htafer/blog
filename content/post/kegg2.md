@@ -1,7 +1,7 @@
 +++
 title = "KEGG analysis of regulated genes"
 author = ["htafer"]
-date = 2018-02-08
+date = 2019-02-08
 tags = ["proteomics", "KEGG", "genes", "plant", "enrichment", "pathview", "plot", "visualization", "REST", "api"]
 draft = false
 weight = 1002
@@ -170,7 +170,7 @@ for (f in files){
 
 The resulting pathways are now showing in red the genes with at least one peptide.
 
-<a id="orga2b7ce8"></a>
+<a id="orgd1c4b54"></a>
 
 {{< figure src="/img/ko00020.00020_jatCur.yb.csv.list.KEGG.csv.png" caption="Figure 1: Colorized KEGG pathway rendered by pathview" >}}
 

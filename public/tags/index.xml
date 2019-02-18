@@ -31,6 +31,24 @@
     </item>
     
     <item>
+      <title>CUDA</title>
+      <link>https://htafer.github.io/tags/cuda/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/cuda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CUDNN</title>
+      <link>https://htafer.github.io/tags/cudnn/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/cudnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>DNA</title>
       <link>https://htafer.github.io/tags/dna/</link>
       <pubDate>Tue, 11 Dec 2018 14:00:00 +0100</pubDate>
@@ -67,11 +85,29 @@
     </item>
     
     <item>
+      <title>IGP</title>
+      <link>https://htafer.github.io/tags/igp/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/igp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>KEGG</title>
       <link>https://htafer.github.io/tags/kegg/</link>
       <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
       
       <guid>https://htafer.github.io/tags/kegg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MX150</title>
+      <link>https://htafer.github.io/tags/mx150/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/mx150/</guid>
       <description></description>
     </item>
     
@@ -211,6 +247,15 @@
     </item>
     
     <item>
+      <title>docker</title>
+      <link>https://htafer.github.io/tags/docker/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>emacs</title>
       <link>https://htafer.github.io/tags/emacs/</link>
       <pubDate>Thu, 07 Feb 2019 00:00:00 +0100</pubDate>
@@ -342,6 +387,15 @@
       <pubDate>Thu, 24 Jan 2019 14:00:00 +0100</pubDate>
       
       <guid>https://htafer.github.io/tags/ncrna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nvidia</title>
+      <link>https://htafer.github.io/tags/nvidia/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://htafer.github.io/tags/nvidia/</guid>
       <description></description>
     </item>
     

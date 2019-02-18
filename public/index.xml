@@ -660,7 +660,7 @@ guppy_basecaller --input_path . --save_path . --flowcell FLO-MIN106 --kit SQK-LS
   CPU/GPU-based basecalling with guppy
 &lt;/div&gt;
 
-&lt;p&gt;Basecalling on the MX150 is approximately &lt;strong&gt;6-8x faster than on i7-8550&lt;/strong&gt;. Champagne!&lt;/p&gt;
+&lt;p&gt;Basecalling on the MX150 is approximately &lt;strong&gt;6-8x faster than on my laptop i7-8550&lt;/strong&gt;. Champagne!&lt;/p&gt;
 </description>
     </item>
     

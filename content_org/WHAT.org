@@ -7,7 +7,7 @@
 :EXPORT_HUGO_SECTION: post
 :EXPORT_FILE_NAME: hugo
 :HUGO_CODE_FENCE: nil
-:EXPORT_DATE: 2018-02-07
+:EXPORT_DATE: 2019-02-07
 :END:
 
 
@@ -36,7 +36,7 @@ link should be fine to dive into it.
 :EXPORT_HUGO_SECTION: post
 :EXPORT_FILE_NAME: kegg2
 :HUGO_CODE_FENCE: nil
-:EXPORT_DATE: 2018-02-08
+:EXPORT_DATE: 2019-02-08
 :END:
 
 I have been terminating a project where proteomic profiles of
@@ -328,14 +328,12 @@ the desired plot. Once this is ensured publication ready plots are
 easily produced by this great package.
 
 
-* Nanopore Basecalling :genomics:metagenomics:ONT:nanopore:sequencing:bioinformatics:tutorial:albacore:guppy:
-  SCHEDULED: <2019-02-20 Wed>
-
+* Nanopore Basecalling :genomics:metagenomics:ONT:nanopore:sequencing:bioinformatics:tutorial:albacore:guppy:nvidia:docker:MX150:IGP:CUDA:CUDNN:docker:
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: post
-:EXPORT_FILE_NAME: nanopore_basecalling
+:EXPORT_FILE_NAME: nanoporeBasecalling
 :HUGO_CODE_FENCE: nil
-:EXPORT_HUGO_PUBLISHDATE: 2018-02-20
+:EXPORT_DATE: 2019-02-08
 :END:
 
 ** Context
@@ -383,9 +381,88 @@ guppy_basecaller -r \ #recursive search for fast5 files
 A 6 years old AMD AMD FX-8370E is basecalling approx. 5-10 reads/s,
 approximately the speed of a laptop with a 2018 i7-8550.
 
-
 ** Basecalling on MX150 Nvidia
 
+I have a laptop with an intel integraded graphics and a MX150 video
+card.  Before using the MX150 for basecalling, I configured my system
+to use the integrated for display and the nvidia card for
+compute. Base Ubuntu configuration for the t480 was taken from the
+great [[https://www.aqu.lu/2018/08/15/t480-configs.html][Luca's Blog]]. Since I have Ubuntu 18.04 but Guppy's GPU-version
+is currently only working in Ubuntu under Ubuntu 16.04 I followed the
+same path as the recently blog post of [[https://medium.com/@kepler_00/nanopore-gpu-basecalling-using-guppy-on-ubuntu-18-04-and-nvidia-docker-v2-with-a-rtx-2080-d875945e5c8d][Winston Koh]].  He uses a nvidia
+docker image with cuda and CNN under Ubuntu 16 and subsequently
+installs guppy via the dpkg installer.
+
+We first configured the Nvidia/Intel dual GPU system as reported in 
+[[https://gist.github.com/alexlee-gk/76a409f62a53883971a18a11af93241b][alexlee-gk gist]].
+
+A list of annotated command is found below:
+#+CAPTION:  Driver installation in the laptop
+#+BEGIN_SRC bash
+# Download nvidia driver https://www.nvidia.com/Download/index.aspx?lang=en-us
+sudo bash ./NVIDIA-Linux-x86_64-410.93.run --no-opengl-files
+#+END_SRC
+
+The Nvidia-Docker installation is covered by [[https://medium.com/@sh.tsang/docker-tutorial-5-nvidia-docker-2-0-installation-in-ubuntu-18-04-cb80f17cac65][SH Tsang Blog Post]].
+Since I had an older version of docker I had to purge it first
+
+#+CAPTION: Deinstallation of older docker version
+#+BEGIN_SRC bash
+sudo apt purge docker*
+sudo apt-get remove docker docker-engine docker.io containerd runc
+#+END_SRC
 
 
-** Basecalling on a G3 instance
+Next step was the installation of docker and the needed image
+
+#+CAPTION: Installation and setting of Nvidia-docker
+#+BEGIN_SRC bash
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo apt-key fingerprint 0EBFCD88
+sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+apt-cache madison nvidia-docker2 nvidia-container-runtime
+sudo apt-get install nvidia-docker2=2.0.3+docker18.09.2-1
+#+END_SRC
+
+A test of the docker image with nvidia-smi returns the expected image:
+
+#+CAPTION: Output of ~sudo docker run --runtime=nvidia --rm nvidia/cuda nvidia-smi~
+[[/img/nvidia-smi.png]]
+
+We then pull the image containg cuda, cudnn and ubuntu-16.04 and start it
+#+CAPTION: Pulling a ubuntu-16.04 image with nvidia,cuda and cudnn pre-configured, starting it and mounting the data on the directory /fast5  in the image
+#+BEGIN_SRC bash
+  sudo docker pull nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04 
+  sudo docker run --runtime=nvidia --name guppy_gpu -i -t -v /home/htafer/work/zenity/fast5/:/fast5 \
+  nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04 /bin/bash 
+#+END_SRC
+
+Inside the container, we install the gpu-enable guppy version
+#+CAPTION: Installation of guppy in the container
+#+BEGIN_SRC bash
+wget -q https://mirror.oxfordnanoportal.com/s1oftware/analysis/ont_guppy_cpu_2.3.3-1~xenial_amd64.deb
+dpkg -i ont_guppy_2.3.1-1~xenial_amd64.deb --ignore-depends=nvidia-384,libcuda1-384
+#+END_SRC
+
+Finally we can start the basecalling on cpu and gpu
+#+CAPTION: CPU/GPU-based basecalling with guppy 
+#+BEGIN_SRC bash
+#CPU
+guppy_basecaller --input_path . --save_path . --flowcell FLO-MIN106 --kit SQK-LSK109
+#GPU
+guppy_basecaller --input_path . --save_path . --flowcell FLO-MIN106 --kit SQK-LSK109 -x cuda:0
+#+END_SRC
+
+
+Basecalling on the MX150 is approximately *6-8x faster than on my laptop i7-8550*. Champagne!
+
+
+
+
+
+
+

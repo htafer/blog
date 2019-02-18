@@ -1,7 +1,7 @@
 +++
 title = "Blogging from emacs with HUGO and the academic themes"
 author = ["htafer"]
-date = 2018-02-07
+date = 2019-02-07
 tags = ["hugo", "academic", "org", "emacs"]
 draft = false
 weight = 1001

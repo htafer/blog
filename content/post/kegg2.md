@@ -170,7 +170,7 @@ for (f in files){
 
 The resulting pathways are now showing in red the genes with at least one peptide.
 
-<a id="orgd1c4b54"></a>
+<a id="org9655a82"></a>
 
 {{< figure src="/img/ko00020.00020_jatCur.yb.csv.list.KEGG.csv.png" caption="Figure 1: Colorized KEGG pathway rendered by pathview" >}}
 

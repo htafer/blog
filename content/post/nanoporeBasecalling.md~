@@ -2,7 +2,7 @@
 title = "Nanopore Basecalling"
 author = ["htafer"]
 date = 2019-02-08
-tags = ["genomics", "metagenomics", "ONT", "nanopore", "sequencing", "bioinformatics", "tutorial", "albacore", "guppy"]
+tags = ["genomics", "metagenomics", "ONT", "nanopore", "sequencing", "bioinformatics", "tutorial", "albacore", "guppy", "nvidia", "MX150", "IGP", "CUDA", "CUDNN", "docker"]
 draft = false
 weight = 1003
 +++
@@ -155,4 +155,4 @@ guppy_basecaller --input_path . --save_path . --flowcell FLO-MIN106 --kit SQK-LS
   CPU/GPU-based basecalling with guppy
 </div>
 
-Basecalling on the MX150 is approximately **6-8x faster than on i7-8550**. Champagne!
+Basecalling on the MX150 is approximately **6-8x faster than on my laptop i7-8550**. Champagne!
